@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731EE85D1EB4728400346427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE85C1EB4728400346427 /* AppDelegate.swift */; };
+		731EE85F1EB4728400346427 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 731EE85E1EB4728400346427 /* GameScene.sks */; };
+		731EE8611EB4728400346427 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8601EB4728400346427 /* Actions.sks */; };
+		731EE8631EB4728400346427 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE8621EB4728400346427 /* GameScene.swift */; };
+		731EE8651EB4728400346427 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE8641EB4728400346427 /* GameViewController.swift */; };
+		731EE8681EB4728400346427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8661EB4728400346427 /* Main.storyboard */; };
+		731EE86A1EB4728400346427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8691EB4728400346427 /* Assets.xcassets */; };
+		731EE86D1EB4728400346427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EE86B1EB4728400346427 /* LaunchScreen.storyboard */; };
+		731EE8781EB4728400346427 /* PongWithWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE8771EB4728400346427 /* PongWithWatchTests.swift */; };
+		731EE8881EB472B000346427 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8861EB472B000346427 /* Interface.storyboard */; };
+		731EE88A1EB472B000346427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8891EB472B000346427 /* Assets.xcassets */; };
+		731EE8911EB472B000346427 /* WatchPong Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 731EE8901EB472B000346427 /* WatchPong Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		731EE8981EB472B000346427 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE8971EB472B000346427 /* InterfaceController.swift */; };
+		731EE89A1EB472B000346427 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8991EB472B000346427 /* GameScene.sks */; };
+		731EE89C1EB472B000346427 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE89B1EB472B000346427 /* GameScene.swift */; };
+		731EE89E1EB472B000346427 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE89D1EB472B000346427 /* ExtensionDelegate.swift */; };
+		731EE8A01EB472B000346427 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EE89F1EB472B000346427 /* NotificationController.swift */; };
+		731EE8A21EB472B000346427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EE8A11EB472B000346427 /* Assets.xcassets */; };
+		731EE8A61EB472B000346427 /* WatchPong.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 731EE8841EB472B000346427 /* WatchPong.app */; };
+		732658261EC5D2CD006C0BBE /* CountUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 732658251EC5D2CD006C0BBE /* CountUp.mp3 */; };
+		733E633E1EC0711800ED7D83 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E633D1EC0711800ED7D83 /* MenuViewController.swift */; };
+		7371FE231EBDDC190005AAD0 /* magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7371FE211EBDDC190005AAD0 /* magic.sks */; };
+		7371FE241EBDDC190005AAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7371FE221EBDDC190005AAD0 /* Assets.xcassets */; };
+		7371FE261EBE6DD40005AAD0 /* ScoreCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371FE251EBE6DD40005AAD0 /* ScoreCount.swift */; };
+		73CA011A1EC57D1D001C232E /* MotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA01191EC57D1D001C232E /* MotionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731EE8741EB4728400346427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731EE8511EB4728400346427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731EE8581EB4728400346427;
+			remoteInfo = PongWithWatch;
+		};
+		731EE8921EB472B000346427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731EE8511EB4728400346427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731EE88F1EB472B000346427;
+			remoteInfo = "WatchPong Extension";
+		};
+		731EE8A41EB472B000346427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731EE8511EB4728400346427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731EE8831EB472B000346427;
+			remoteInfo = WatchPong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		731EE8AA1EB472B000346427 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				731EE8911EB472B000346427 /* WatchPong Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE8AE1EB472B000346427 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				731EE8A61EB472B000346427 /* WatchPong.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		731EE8591EB4728400346427 /* PongWithWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PongWithWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731EE85C1EB4728400346427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		731EE85E1EB4728400346427 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		731EE8601EB4728400346427 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		731EE8621EB4728400346427 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		731EE8641EB4728400346427 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		731EE8671EB4728400346427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		731EE8691EB4728400346427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731EE86C1EB4728400346427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		731EE86E1EB4728400346427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731EE8731EB4728400346427 /* PongWithWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongWithWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731EE8771EB4728400346427 /* PongWithWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongWithWatchTests.swift; sourceTree = "<group>"; };
+		731EE8791EB4728400346427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731EE8841EB472B000346427 /* WatchPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731EE8871EB472B000346427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		731EE8891EB472B000346427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731EE88B1EB472B000346427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731EE8901EB472B000346427 /* WatchPong Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchPong Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731EE8961EB472B000346427 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		731EE8971EB472B000346427 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		731EE8991EB472B000346427 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		731EE89B1EB472B000346427 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		731EE89D1EB472B000346427 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		731EE89F1EB472B000346427 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		731EE8A11EB472B000346427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731EE8A31EB472B000346427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732658251EC5D2CD006C0BBE /* CountUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CountUp.mp3; sourceTree = "<group>"; };
+		733E633D1EC0711800ED7D83 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7371FE211EBDDC190005AAD0 /* magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = magic.sks; sourceTree = "<group>"; };
+		7371FE221EBDDC190005AAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7371FE251EBE6DD40005AAD0 /* ScoreCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCount.swift; sourceTree = "<group>"; };
+		73CA01191EC57D1D001C232E /* MotionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731EE8561EB4728400346427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE8701EB4728400346427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE88D1EB472B000346427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731EE8501EB4728400346427 = {
+			isa = PBXGroup;
+			children = (
+				7371FE211EBDDC190005AAD0 /* magic.sks */,
+				7371FE221EBDDC190005AAD0 /* Assets.xcassets */,
+				731EE85B1EB4728400346427 /* PongWithWatch */,
+				731EE8761EB4728400346427 /* PongWithWatchTests */,
+				731EE8851EB472B000346427 /* WatchPong */,
+				731EE8941EB472B000346427 /* WatchPong Extension */,
+				731EE85A1EB4728400346427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731EE85A1EB4728400346427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8591EB4728400346427 /* PongWithWatch.app */,
+				731EE8731EB4728400346427 /* PongWithWatchTests.xctest */,
+				731EE8841EB472B000346427 /* WatchPong.app */,
+				731EE8901EB472B000346427 /* WatchPong Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731EE85B1EB4728400346427 /* PongWithWatch */ = {
+			isa = PBXGroup;
+			children = (
+				731EE85C1EB4728400346427 /* AppDelegate.swift */,
+				731EE85E1EB4728400346427 /* GameScene.sks */,
+				731EE8601EB4728400346427 /* Actions.sks */,
+				733E63411EC0722100ED7D83 /* ViewControllers */,
+				733E63451EC0728700ED7D83 /* Model */,
+				733E63421EC0724100ED7D83 /* Views */,
+				733E63431EC0724F00ED7D83 /* Resources */,
+			);
+			path = PongWithWatch;
+			sourceTree = "<group>";
+		};
+		731EE8761EB4728400346427 /* PongWithWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8771EB4728400346427 /* PongWithWatchTests.swift */,
+				731EE8791EB4728400346427 /* Info.plist */,
+			);
+			path = PongWithWatchTests;
+			sourceTree = "<group>";
+		};
+		731EE8851EB472B000346427 /* WatchPong */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8861EB472B000346427 /* Interface.storyboard */,
+				731EE8891EB472B000346427 /* Assets.xcassets */,
+				731EE88B1EB472B000346427 /* Info.plist */,
+			);
+			path = WatchPong;
+			sourceTree = "<group>";
+		};
+		731EE8941EB472B000346427 /* WatchPong Extension */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8971EB472B000346427 /* InterfaceController.swift */,
+				731EE89B1EB472B000346427 /* GameScene.swift */,
+				731EE8991EB472B000346427 /* GameScene.sks */,
+				731EE89D1EB472B000346427 /* ExtensionDelegate.swift */,
+				731EE89F1EB472B000346427 /* NotificationController.swift */,
+				733E63441EC0725D00ED7D83 /* Resources */,
+				731EE8951EB472B000346427 /* Supporting Files */,
+			);
+			path = "WatchPong Extension";
+			sourceTree = "<group>";
+		};
+		731EE8951EB472B000346427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8961EB472B000346427 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		733E63411EC0722100ED7D83 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				733E633D1EC0711800ED7D83 /* MenuViewController.swift */,
+				73CA01191EC57D1D001C232E /* MotionController.swift */,
+				731EE8641EB4728400346427 /* GameViewController.swift */,
+				731EE8621EB4728400346427 /* GameScene.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		733E63421EC0724100ED7D83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8661EB4728400346427 /* Main.storyboard */,
+				731EE86B1EB4728400346427 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		733E63431EC0724F00ED7D83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				731EE86E1EB4728400346427 /* Info.plist */,
+				731EE8691EB4728400346427 /* Assets.xcassets */,
+				732658251EC5D2CD006C0BBE /* CountUp.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		733E63441EC0725D00ED7D83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				731EE8A31EB472B000346427 /* Info.plist */,
+				731EE8A11EB472B000346427 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		733E63451EC0728700ED7D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7371FE251EBE6DD40005AAD0 /* ScoreCount.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731EE8581EB4728400346427 /* PongWithWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731EE87C1EB4728400346427 /* Build configuration list for PBXNativeTarget "PongWithWatch" */;
+			buildPhases = (
+				731EE8551EB4728400346427 /* Sources */,
+				731EE8561EB4728400346427 /* Frameworks */,
+				731EE8571EB4728400346427 /* Resources */,
+				731EE8AE1EB472B000346427 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731EE8A51EB472B000346427 /* PBXTargetDependency */,
+			);
+			name = PongWithWatch;
+			productName = PongWithWatch;
+			productReference = 731EE8591EB4728400346427 /* PongWithWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		731EE8721EB4728400346427 /* PongWithWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731EE87F1EB4728400346427 /* Build configuration list for PBXNativeTarget "PongWithWatchTests" */;
+			buildPhases = (
+				731EE86F1EB4728400346427 /* Sources */,
+				731EE8701EB4728400346427 /* Frameworks */,
+				731EE8711EB4728400346427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731EE8751EB4728400346427 /* PBXTargetDependency */,
+			);
+			name = PongWithWatchTests;
+			productName = PongWithWatchTests;
+			productReference = 731EE8731EB4728400346427 /* PongWithWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		731EE8831EB472B000346427 /* WatchPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731EE8AB1EB472B000346427 /* Build configuration list for PBXNativeTarget "WatchPong" */;
+			buildPhases = (
+				731EE8821EB472B000346427 /* Resources */,
+				731EE8AA1EB472B000346427 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731EE8931EB472B000346427 /* PBXTargetDependency */,
+			);
+			name = WatchPong;
+			productName = WatchPong;
+			productReference = 731EE8841EB472B000346427 /* WatchPong.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		731EE88F1EB472B000346427 /* WatchPong Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731EE8A71EB472B000346427 /* Build configuration list for PBXNativeTarget "WatchPong Extension" */;
+			buildPhases = (
+				731EE88C1EB472B000346427 /* Sources */,
+				731EE88D1EB472B000346427 /* Frameworks */,
+				731EE88E1EB472B000346427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchPong Extension";
+			productName = "WatchPong Extension";
+			productReference = 731EE8901EB472B000346427 /* WatchPong Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731EE8511EB4728400346427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Michael Castillo";
+				TargetAttributes = {
+					731EE8581EB4728400346427 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4UKSSV9PZ8;
+						ProvisioningStyle = Automatic;
+					};
+					731EE8721EB4728400346427 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4UKSSV9PZ8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 731EE8581EB4728400346427;
+					};
+					731EE8831EB472B000346427 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4UKSSV9PZ8;
+						ProvisioningStyle = Automatic;
+					};
+					731EE88F1EB472B000346427 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4UKSSV9PZ8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 731EE8541EB4728400346427 /* Build configuration list for PBXProject "PongWithWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 731EE8501EB4728400346427;
+			productRefGroup = 731EE85A1EB4728400346427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731EE8581EB4728400346427 /* PongWithWatch */,
+				731EE8721EB4728400346427 /* PongWithWatchTests */,
+				731EE8831EB472B000346427 /* WatchPong */,
+				731EE88F1EB472B000346427 /* WatchPong Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731EE8571EB4728400346427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE8681EB4728400346427 /* Main.storyboard in Resources */,
+				731EE85F1EB4728400346427 /* GameScene.sks in Resources */,
+				731EE86A1EB4728400346427 /* Assets.xcassets in Resources */,
+				7371FE231EBDDC190005AAD0 /* magic.sks in Resources */,
+				7371FE241EBDDC190005AAD0 /* Assets.xcassets in Resources */,
+				731EE86D1EB4728400346427 /* LaunchScreen.storyboard in Resources */,
+				731EE8611EB4728400346427 /* Actions.sks in Resources */,
+				732658261EC5D2CD006C0BBE /* CountUp.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE8711EB4728400346427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE8821EB472B000346427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE88A1EB472B000346427 /* Assets.xcassets in Resources */,
+				731EE8881EB472B000346427 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE88E1EB472B000346427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE8A21EB472B000346427 /* Assets.xcassets in Resources */,
+				731EE89A1EB472B000346427 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731EE8551EB4728400346427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE8631EB4728400346427 /* GameScene.swift in Sources */,
+				73CA011A1EC57D1D001C232E /* MotionController.swift in Sources */,
+				733E633E1EC0711800ED7D83 /* MenuViewController.swift in Sources */,
+				7371FE261EBE6DD40005AAD0 /* ScoreCount.swift in Sources */,
+				731EE8651EB4728400346427 /* GameViewController.swift in Sources */,
+				731EE85D1EB4728400346427 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE86F1EB4728400346427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE8781EB4728400346427 /* PongWithWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE88C1EB472B000346427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EE89C1EB472B000346427 /* GameScene.swift in Sources */,
+				731EE8981EB472B000346427 /* InterfaceController.swift in Sources */,
+				731EE8A01EB472B000346427 /* NotificationController.swift in Sources */,
+				731EE89E1EB472B000346427 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731EE8751EB4728400346427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731EE8581EB4728400346427 /* PongWithWatch */;
+			targetProxy = 731EE8741EB4728400346427 /* PBXContainerItemProxy */;
+		};
+		731EE8931EB472B000346427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731EE88F1EB472B000346427 /* WatchPong Extension */;
+			targetProxy = 731EE8921EB472B000346427 /* PBXContainerItemProxy */;
+		};
+		731EE8A51EB472B000346427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731EE8831EB472B000346427 /* WatchPong */;
+			targetProxy = 731EE8A41EB472B000346427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		731EE8661EB4728400346427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731EE8671EB4728400346427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		731EE86B1EB4728400346427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731EE86C1EB4728400346427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		731EE8861EB472B000346427 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731EE8871EB472B000346427 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731EE87A1EB4728400346427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731EE87B1EB4728400346427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731EE87D1EB4728400346427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = PongWithWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		731EE87E1EB4728400346427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = PongWithWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		731EE8801EB4728400346427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = PongWithWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PongWithWatch.app/PongWithWatch";
+			};
+			name = Debug;
+		};
+		731EE8811EB4728400346427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = PongWithWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PongWithWatch.app/PongWithWatch";
+			};
+			name = Release;
+		};
+		731EE8A81EB472B000346427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = "WatchPong Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		731EE8A91EB472B000346427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				INFOPLIST_FILE = "WatchPong Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		731EE8AC1EB472B000346427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				IBSC_MODULE = WatchPong_Extension;
+				INFOPLIST_FILE = WatchPong/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		731EE8AD1EB472B000346427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
+				IBSC_MODULE = WatchPong_Extension;
+				INFOPLIST_FILE = WatchPong/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeC.PongWithWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731EE8541EB4728400346427 /* Build configuration list for PBXProject "PongWithWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731EE87A1EB4728400346427 /* Debug */,
+				731EE87B1EB4728400346427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731EE87C1EB4728400346427 /* Build configuration list for PBXNativeTarget "PongWithWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731EE87D1EB4728400346427 /* Debug */,
+				731EE87E1EB4728400346427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731EE87F1EB4728400346427 /* Build configuration list for PBXNativeTarget "PongWithWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731EE8801EB4728400346427 /* Debug */,
+				731EE8811EB4728400346427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731EE8A71EB472B000346427 /* Build configuration list for PBXNativeTarget "WatchPong Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731EE8A81EB472B000346427 /* Debug */,
+				731EE8A91EB472B000346427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731EE8AB1EB472B000346427 /* Build configuration list for PBXNativeTarget "WatchPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731EE8AC1EB472B000346427 /* Debug */,
+				731EE8AD1EB472B000346427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731EE8511EB4728400346427 /* Project object */;
+}
